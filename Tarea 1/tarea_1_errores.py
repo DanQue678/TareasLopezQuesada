@@ -1,5 +1,5 @@
 import math
-import random
+# import random
 
 
 def PrimeOrNot(p):
@@ -10,7 +10,6 @@ def PrimeOrNot(p):
             result = False
             break
         i += 1
-    return p, result;
+    return p, result
 
 # print(PrimeOrNot(random.randint(2,10000000)))
-
